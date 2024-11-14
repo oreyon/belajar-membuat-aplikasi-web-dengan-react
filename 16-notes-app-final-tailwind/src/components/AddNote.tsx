@@ -28,7 +28,6 @@ const AddNote = ({ addNote }: AddNoteProps) => {
 				<input
 					type='text'
 					value={title}
-					maxLength={maxTitleLength}
 					onChange={handleTitleChange}
 					placeholder='Whats Happening?!'
 					required
